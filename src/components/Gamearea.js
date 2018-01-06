@@ -12,13 +12,9 @@ const shuffle = (monkeyArray) => {
 
   console.log('shuffle call');
 
-  // While there remain elements to shuffle...
   while (currentIndex !== 0) {
-    // Pick a remaining element...
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
-
-    // And swap it with the current element.
     temporaryValue = monkeyArray[currentIndex];
     monkeyArray[currentIndex] = monkeyArray[randomIndex];
     monkeyArray[randomIndex] = temporaryValue;
@@ -54,9 +50,7 @@ class Gamearea extends Component {
       for (let i = 0; i <= 11; i++) {
         monkeys[i].status = false;
       }
-
     } else {
-
     this.props.gameMessage('You guessed AWESOMELY!! 👏');
     monkeys[key].status = score++;
     this.props.scoreCb(score);
