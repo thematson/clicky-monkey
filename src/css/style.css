@@ -35,7 +35,7 @@ li {
 
 .jumbotitle {
   text-align: left;
-  padding: 100px 20px;
+  padding: 100px 20px 60px 20px;
   min-height: 400px;
   background-image: url('./images/monkeypaper.jpg');
   background-size: cover;
@@ -65,7 +65,7 @@ li {
   flex-wrap: wrap;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 50px;
   width: 90%;
   margin: 0 auto;
