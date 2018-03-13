@@ -25,13 +25,8 @@ const shuffle = (monkeyArray) => {
 class Gamearea extends Component {
   constructor() {
     super();
-    // this.isClicked = this.isClicked.bind(this);
   }
 
-// scoreFunction = () => {
-//   let score = 0;
-//   this.props.scoreCb(score);
-// }
   state = {
     monkeys: monkeyInfo,
     counter: 0,
