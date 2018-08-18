@@ -37,9 +37,11 @@ li {
   text-align: left;
   padding: 100px 20px 60px 20px !important;
   min-height: 400px;
-  background-image: url('./images/monkeypaper.jpg');
+  /* background-image: url('./images/monkey-bkgrd.jpg'); */
+  background-color: rgb(165, 216, 83, 0.5);
   background-size: cover;
   color: rgb(29, 27, 28);
+  text-align: center;
 }
 
 .jumbotitle h1 {
@@ -53,11 +55,11 @@ li {
 }
 
 .main {
-  background-color: rgb(211, 245, 254);
+  background-image: url('./images/monkey-bkgrd.jpg');
 }
 
 .monkeygrid {
-  background-color: rgb(211, 245, 254);
+  /* background-image: url('./images/monkey-bkgrd.jpg'); */
   display: -ms-flexbox;
   display: flex;
   min-height: 80%;
@@ -69,6 +71,7 @@ li {
   padding-bottom: 50px;
   width: 90%;
   margin: 0 auto;
+  list-style: none;
 }
 
 .prefooter {
@@ -106,6 +109,7 @@ li {
   background-position: center center;
   cursor: pointer;
   z-index: 999;
+  list-style: none;
 }
 
 .monkeyPics>.img-container {

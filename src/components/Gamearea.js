@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Monkey from './Monkey';
 import monkeyInfo from '../monkey-info.json';
-import styled, { keyframes } from 'styled-components';
 
 
 
